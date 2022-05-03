@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.4",
+  "Version": "1.0.1",
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/Wagner08/servidor/main/Meirasnet4g%20atl",
   "Sms": "https://raw.githubusercontent.com/Wagner08/servidor/main/Meirasnet4g%20sms",
@@ -26,7 +26,7 @@
   ],
   "Servers": [
     {
-      "Name": "Sp",
+      "Name": "Servidor Br",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "www.galego.xyz",
@@ -39,53 +39,165 @@
   ],
   "Networks": [
     {
-      "Name": "VIVO",
+      "Name": "VIVO 1",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: www.galego.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET sni://no.descomplica.com.br HTTP/1.1[crlf]Host: www.galego.xyz[crlf]X-Forward-Host: br2.www.galego.xyz[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
+      "SNI": "no.descomplica.com.br",
+      "TlsIP": "104.16.57.6",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+       "Name": "VIVO 2",
+      "FLAG": "vivo",
+      "Payload": "GET wss://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Keep-alive[crlf]Upgrade: ws[crlf][crlf]",
+      "SNI": "mobilidade.cloud.caixa.gov.br",
+      "TlsIP": "104.16.56.6",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "VIVO 3",
+      "FLAG": "vivo",
+      "Payload": "GET wss://no.descomplica.com.br HTTP/1.1[crlf]Host: www.galego.xyz [crlf]X-Forward-Host: www.galego.xyz[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf] GET [host_port][protocol][crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.16.57.6",
+      "ProxyIP": "104.16.18.94",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
     {
-      "Name": "Tim",
-      "FLAG": "tim",
-      "Payload": "GET ws://cdnjs.cloudflare.com HTTP/1.1\nHost: [www.galego.xyz]\nUpgrade: ws\n\n",
-      "SNI": "cdnjs.cloudflare.com",
+    "Name": "VIVO 4 ",
+      "FLAG": "vivo",
+      "Payload": "GET wss://no.descomplica.com.br HTTP/1.1[crlf]Host: [app_host][crlf]X-Forward-Host: [app_host][crlf]Connection: upgrade[crlf]upgrade: websocket[crlf] CONNECT [host_port][protocol][crlf][crlf]",
+      "SNI": "no.descomplica.com.br",
       "TlsIP": "104.16.18.94",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
     },
     {
-      "Name": "Claro",
+      "Name": "CLARO 1",
       "FLAG": "claro",
-      "Payload": "GET ws://no.descomplica.com.br HTTP/1.1\nHost: [www.galego.xyz]\nUpgrade: ws\n\n",
+      "Payload": "GET wss://no.descomplica.com.br/ HTTP/1.1[crlf]Host: www.galego.xyz[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "no.descomplica.com.br",
-      "TlsIP": "199.60.103.228",
+      "TlsIP": "no.descomplica.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
     },
     {
-      "Name": "Oi",
+      "Name": "CLARO 2",
+      "FLAG": "claro",
+      "Payload": "GET wss://no.descomplica.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "no.descomplica.com.br",
+      "TlsIP": "no.descomplica.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+   },
+   {
+      "Name": "CLARO 3",
+      "FLAG": "claro",
+      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
+      "SNI": "mobilidade.cloud.caixa.gov.br",
+      "TlsIP": "mobilidade.cloud.caixa.gov.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "CLARO 4",
+      "FLAG": "claro",
+      "Payload": "GET wss://no.descomplica.com.br HTTP/1.1[crlf]Host: [app_host][crlf]X-Forward-Host: [app_host][crlf]Connection: upgrade[crlf]upgrade: websocket[crlf] CONNECT [host_port][protocol][crlf][crlf]",
+      "SNI": "no.descomplica.com.br",
+      "TlsIP": "no.descomplica.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+   },
+   {
+      "Name": "CLARO 5",
+      "FLAG": "claro",
+      "Payload": "GET ssl://no.descomplica.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "no.descomplica.com.br",
+      "TlsIP": "no.descomplica.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "Oi 01",
       "FLAG": "oi",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [www.galego.xyz][crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.16.56.6",
       "ProxyPort": "80",
       "Info": "Proxy"
-    }
+    },
     {
-      "Name": "Oi",
+      "Name": "Oi 02",
       "FLAG": "oi",
-      "Payload": "GET ws://no.descomplica.com.br HTTP/1.1\nHost: [www.galego.xyz]\nUpgrade: ws\n\n",
-      "SNI": "www.hbogo.com.br",
-      "TlsIP": "104.16.55.91",
+      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
+      "SNI": "mobilidade.cloud.caixa.gov.br",
+      "TlsIP": "mobilidade.cloud.caixa.gov.br",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
+    },
+    {
+      "Name": "Oi 3",
+      "FLAG": "oi",
+      "Payload": "GET wss://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: www.galego.xyztvps.online[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "mobilidade.cloud.caixa.gov.br",
+      "TlsIP": "104.16.57.6",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "TIM 1",
+      "FLAG": "tim",
+      "Payload": "GET wss://cutim.com.br HTTP/1.1[crlf]Host: [app_host][crlf]X-Forward-Host: [app_host][crlf]Connection: upgrade[crlf]upgrade: websocket[crlf] CONNECT [host_port][protocol][crlf][crlf]",
+      "SNI": "cutim.com.br",
+      "TlsIP": "cutim.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "TIM 2",
+      "FLAG": "tim",
+      "Payload": "GET / HTTP/1.1[crlf]Host: www.galego.xyz [crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "www.galego.xyz",
+      "TlsIP": "104.16.19.94",
+      "ProxyIP": "104.16.19.94",
+      "ProxyPort": "80",
+      "Info": "Tlsws"
+    },
+    { 
+      "Name": "TIM 3 ",
+      "FLAG": "tim",
+      "Payload": "GET wss://no.descomplica.com.br HTTP/1.1[crlf]Host: [app_host][crlf]X-Forward-Host: [app_host][crlf]Connection: upgrade[crlf]upgrade: websocket[crlf] CONNECT [host_port][protocol][crlf][crlf]",
+      "SNI": "no.descomplica.com.br",
+      "TlsIP": "104.16.18.94",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "TIM 4",
+      "FLAG": "tim",
+      "Payload": "GET wss://no.descomplica.com.br/ HTTP/1.1[crlf]Host: www.galego.xyz[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "no.descomplica.com.br",
+      "TlsIP": "104.16.18.94",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+ 
+    }
   ]
 }
