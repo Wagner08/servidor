@@ -1,6 +1,6 @@
 {
-  "Version": "1.0.3",
-  "ReleaseNotes": "NOVA ATL",
+  "Version": "1.0.4",
+  "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/Wagner08/servidor/main/Meirasnet4g%20atl",
   "Sms": "https://raw.githubusercontent.com/Wagner08/servidor/main/Meirasnet4g%20sms",
   "EmailFeedback": "",
@@ -26,11 +26,11 @@
   ],
   "Servers": [
     {
-      "Name": "Spt",
+      "Name": "Sp",
       "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "gnnettop.ga",
-      "CheckUser": "http://45.162.229.245:5454/checkUser",
+      "ServerIP": "www.galego.xyz",
+      "CheckUser": "http://15.229.18.30:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
@@ -41,12 +41,51 @@
     {
       "Name": "VIVO",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: gnnettop.ga[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: www.galego.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.16.57.6",
       "ProxyPort": "80",
       "Info": "Proxy"
+    },
+    {
+      "Name": "Tim",
+      "FLAG": "tim",
+      "Payload": "GET ws://cdnjs.cloudflare.com HTTP/1.1\nHost: [www.galego.xyz]\nUpgrade: ws\n\n",
+      "SNI": "cdnjs.cloudflare.com",
+      "TlsIP": "104.16.18.94",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "Claro",
+      "FLAG": "claro",
+      "Payload": "GET ws://no.descomplica.com.br HTTP/1.1\nHost: [www.galego.xyz]\nUpgrade: ws\n\n",
+      "SNI": "no.descomplica.com.br",
+      "TlsIP": "199.60.103.228",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "Oi",
+      "FLAG": "oi",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [www.galego.xyz][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.16.56.6",
+      "ProxyPort": "80",
+      "Info": "Proxy"
     }
+    {
+      "Name": "Oi",
+      "FLAG": "oi",
+      "Payload": "GET ws://no.descomplica.com.br HTTP/1.1\nHost: [www.galego.xyz]\nUpgrade: ws\n\n",
+      "SNI": "www.hbogo.com.br",
+      "TlsIP": "104.16.55.91",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
   ]
 }
