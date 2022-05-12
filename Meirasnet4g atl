@@ -1,6 +1,6 @@
 {
-  "Version": "1.0.7",
-  "ReleaseNotes": "Mudanças na claro. Testem!!",
+  "Version": "1.0.8",
+  "ReleaseNotes": "Mudanças na claro 01. Testem!!",
   "UrlUpdate": "https://raw.githubusercontent.com/Wagner08/servidor/main/Meirasnet4g%20atl",
   "Sms": "https://raw.githubusercontent.com/Wagner08/servidor/main/Meirasnet4g%20sms",
   "EmailFeedback": "",
@@ -81,9 +81,9 @@
     {
       "Name": "CLARO 1",
       "FLAG": "claro",
-      "Payload": "GET wss://content.akross.com.br[host] HTTP/1.1[crlf]Host: www.galego.xyz[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "content.akross.com.br",
-      "TlsIP": "content.akross.com.br",
+      "Payload": "GET wss://atendimento.descomplica.com.br HTTP/1.1[crlf]Host: www.galego.xyz[crlf]Upgrade: covid[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "atendimento.descomplica.com.br",
+      "TlsIP": "no.descomplica.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
