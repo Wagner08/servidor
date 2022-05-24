@@ -1,6 +1,6 @@
 {
-  "Version": "1.0.8",
-  "ReleaseNotes": "Mudanças na claro 01. Testem!!",
+  "Version": "1.0.9",
+  "ReleaseNotes": "Mudanças na Tim. Testem!!",
   "UrlUpdate": "https://raw.githubusercontent.com/Wagner08/servidor/main/Meirasnet4g%20atl",
   "Sms": "https://raw.githubusercontent.com/Wagner08/servidor/main/Meirasnet4g%20sms",
   "EmailFeedback": "",
@@ -161,9 +161,9 @@
     {
       "Name": "TIM 1",
       "FLAG": "tim",
-      "Payload": "GET wss://cutim.com.br HTTP/1.1[crlf]Host: [app_host][crlf]X-Forward-Host: [app_host][crlf]Connection: upgrade[crlf]upgrade: websocket[crlf] CONNECT [host_port][protocol][crlf][crlf]",
-      "SNI": "cutim.com.br",
-      "TlsIP": "cutim.com.br",
+      "Payload": "GET wss://emartin.com.br HTTP/1.1[crlf]Host: www.galego.xyz[crlf]Connection: Keep-alive[crlf]Upgrade: ws[crlf][crlf]",
+      "SNI": "emartin.com.br",
+      "TlsIP": "104.26.5.175",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
@@ -171,29 +171,40 @@
     {
       "Name": "TIM 2",
       "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[crlf]Host: www.galego.xyz [crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "www.galego.xyz",
+      "Payload": "GET wss://emartin.com.br HTTP/1.1[crlf]Host: www.galego.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "emartin.com.br",
       "TlsIP": "104.16.19.94",
-      "ProxyIP": "104.16.19.94",
-      "ProxyPort": "80",
+      "ProxyIP": "",
+      "ProxyPort": "",
       "Info": "Tlsws"
     },
     { 
       "Name": "TIM 3 ",
       "FLAG": "tim",
-      "Payload": "GET wss://no.descomplica.com.br HTTP/1.1[crlf]Host: [app_host][crlf]X-Forward-Host: [app_host][crlf]Connection: upgrade[crlf]upgrade: websocket[crlf] CONNECT [host_port][protocol][crlf][crlf]",
-      "SNI": "no.descomplica.com.br",
-      "TlsIP": "104.16.18.94",
-      "ProxyIP": "",
+      "Payload": "GET wss://bobcontents.bennuapp.com.br HTTP/1.1[crlf]Host: www.galego.xyz[crlf]Connection: Keep-alive[crlf]Upgrade: ws[crlf][crlf]",
+      "SNI": "bobcontents.bennuapp.com.br",
+      "TlsIP": "104.18.239.79",
+      "ProxyIP": "104.18.239.79",
       "ProxyPort": "",
       "Info": "Tlsws"
     },
     {
       "Name": "TIM 4",
       "FLAG": "tim",
-      "Payload": "GET wss://emartim.com.br/ HTTP/1.1[crlf]Host: www.galego.xyz[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "emartim.com.br",
+      "Payload": "GET wss://cdnjs.cloudflare.com HTTP/1.1[crlf]Host: www.galego.xyz[crlf]Connection: Keep-alive[crlf]Upgrade: ws[crlf][crlf]",
+      "SNI": "cdnjs.cloudflare.com",
       "TlsIP": "104.16.18.94",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+ 
+    },
+    {
+      "Name": "TIM 5",
+      "FLAG": "tim",
+      "Payload": "GET wss://static.r4you.co HTTP/1.1[crlf]Host: www.galego.xyz[crlf]Connection: Keep-alive[crlf]Upgrade: ws[crlf][crlf]",
+      "SNI": "static.r4you.co",
+      "TlsIP": "static.r4you.co",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
