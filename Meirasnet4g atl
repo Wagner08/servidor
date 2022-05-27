@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.9",
+  "Version": "1.1.0",
   "ReleaseNotes": "Mudanças na Tim. Testem!!",
   "UrlUpdate": "https://raw.githubusercontent.com/Wagner08/servidor/main/Meirasnet4g%20atl",
   "Sms": "https://raw.githubusercontent.com/Wagner08/servidor/main/Meirasnet4g%20sms",
@@ -30,7 +30,7 @@
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "www.galego.xyz",
-      "CheckUser": "http://15.229.18.30:5454/checkUser",
+      "CheckUser": "http://meira.galego.xyz:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
