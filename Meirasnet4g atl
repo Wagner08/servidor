@@ -1,6 +1,6 @@
 {
-  "Version": "1.1.2",
-  "ReleaseNotes": "Mudanças na Claro 02. Testem!!",
+  "Version": "1.1.3",
+  "ReleaseNotes": "Mudanças no tim 01. Testem!!",
   "UrlUpdate": "https://raw.githubusercontent.com/Wagner08/servidor/main/Meirasnet4g%20atl",
   "Sms": "https://raw.githubusercontent.com/Wagner08/servidor/main/Meirasnet4g%20sms",
   "EmailFeedback": "",
@@ -161,9 +161,9 @@
     {
       "Name": "TIM 1",
       "FLAG": "tim",
-      "Payload": "GET wss://emartin.com.br HTTP/1.1[crlf]Host: www.galego.xyz[crlf]Connection: Keep-alive[crlf]Upgrade: ws[crlf][crlf]",
-      "SNI": "emartin.com.br",
-      "TlsIP": "104.26.5.175",
+      "Payload": "GET wss://beringtime.com/ HTTP/1.1[crlf]Host: www.galego.xyz[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "beringtime.com",
+      "TlsIP": "beringtime.com",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
