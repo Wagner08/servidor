@@ -1,6 +1,6 @@
 {
-  "Version": "1.1.3",
-  "ReleaseNotes": "Mudanças no tim 01. Testem!!",
+  "Version": "1.1.4",
+  "ReleaseNotes": "Novidades na vivo.  Novidades no claro 05. Testem!!",
   "UrlUpdate": "https://raw.githubusercontent.com/Wagner08/servidor/main/Meirasnet4g%20atl",
   "Sms": "https://raw.githubusercontent.com/Wagner08/servidor/main/Meirasnet4g%20sms",
   "EmailFeedback": "",
@@ -41,8 +41,8 @@
     {
       "Name": "VIVO 1",
       "FLAG": "vivo",
-      "Payload": "GET sni://vigia.vivo.com.br HTTP/1.1[crlf]Host: www.galego.xyz[crlf]X-Forward-Host: www.galego.xyz[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
-      "SNI": "vigia.vivo.com.br",
+      "Payload": "GET sni://portaldeassinaturas.vivo.com.br HTTP/1.1[crlf]Host: www.galego.xyz[crlf]X-Forward-Host: www.galego.xyz[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
+      "SNI": "portaldeassinaturas.vivo.com.br",
       "TlsIP": "104.18.6.80",
       "ProxyIP": "",
       "ProxyPort": "",
@@ -51,8 +51,8 @@
     {
        "Name": "VIVO 2",
       "FLAG": "vivo",
-      "Payload": "GET wss://vigia.vivo.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Keep-alive[crlf]Upgrade: ws[crlf][crlf]",
-      "SNI": "vigia.vivo.com.br",
+      "Payload": "GET wss://uvp.elections.govt.nz HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Keep-alive[crlf]Upgrade: ws[crlf][crlf]",
+      "SNI": "uvp.elections.govt.nz",
       "TlsIP": "104.18.7.80",
       "ProxyIP": "",
       "ProxyPort": "443",
@@ -61,8 +61,8 @@
     {
       "Name": "VIVO 3",
       "FLAG": "vivo",
-      "Payload": "GET /? HTTP/1.0[lf]Host: www.galego.xyz[lf]Upgrade: websocket[lf]Connection: Keep-Alive\nUser-Agent: [ua]\nReferer: [lf][lf]",
-      "SNI": "",
+      "Payload": "GET wss://legado.vivo.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Keep-alive[crlf]Upgrade: ws[crlf][crlf]",
+      "SNI": "legado.vivo.com.br",
       "TlsIP": "",
       "ProxyIP": "104.18.7.80",
       "ProxyPort": "80",
@@ -71,8 +71,8 @@
     {
     "Name": "VIVO 4 ",
       "FLAG": "vivo",
-      "Payload": "GET sni://planos.vivo.com.br HTTP/1.1[crlf]Host: www.galego.xyz[crlf]X-Forward-Host: www.galego.xyz[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
-      "SNI": "planos.vivo.com.br",
+      "Payload": "GET sni://gedoc.vivo.com.br HTTP/1.1[crlf]Host: www.galego.xyz[crlf]X-Forward-Host: www.galego.xyz[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
+      "SNI": "gedoc.vivo.com.br",
       "TlsIP": "104.18.7.80",
       "ProxyIP": "",
       "ProxyPort": "",
@@ -121,9 +121,9 @@
    {
       "Name": "CLARO 5",
       "FLAG": "claro",
-      "Payload": "GET ssl://no.descomplica.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "no.descomplica.com.br",
-      "TlsIP": "no.descomplica.com.br",
+      "Payload": "GET ssl://No.descomplica.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "No.descomplica.com.br",
+      "TlsIP": "No.descomplica.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
