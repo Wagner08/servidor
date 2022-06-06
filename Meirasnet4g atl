@@ -161,9 +161,9 @@
     {
       "Name": "TIM 1",
       "FLAG": "tim",
-      "Payload": "GET wss://beringtime.com/ HTTP/1.1[crlf]Host: www.galego.xyz[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "beringtime.com",
-      "TlsIP": "beringtime.com",
+      "Payload": "GET wss://assistentetim.com.br/ HTTP/1.1[crlf]Host: www.galego.xyz[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "assistentetim.com.br",
+      "TlsIP": "172.67.165.192",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
@@ -204,7 +204,7 @@
       "FLAG": "tim",
       "Payload": "GET wss://static.r4you.co HTTP/1.1[crlf]Host: www.galego.xyz[crlf]Connection: Keep-alive[crlf]Upgrade: ws[crlf][crlf]",
       "SNI": "static.r4you.co",
-      "TlsIP": "static.r4you.co",
+      "TlsIP": "104.26.5.175",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
