@@ -1,6 +1,6 @@
 {
-  "Version": "1.1.4",
-  "ReleaseNotes": "Novidades na vivo.  Novidades no claro 05. Testem!!",
+  "Version": "1.1.5",
+  "ReleaseNotes": "Novidades na Tim 01 e 05.  Novidades no claro 01. Testem!!",
   "UrlUpdate": "https://raw.githubusercontent.com/Wagner08/servidor/main/Meirasnet4g%20atl",
   "Sms": "https://raw.githubusercontent.com/Wagner08/servidor/main/Meirasnet4g%20sms",
   "EmailFeedback": "",
@@ -81,9 +81,9 @@
     {
       "Name": "CLARO 1",
       "FLAG": "claro",
-      "Payload": "GET wss://content.akross.com.br HTTP/1.1[crlf]Host: www.galego.xyz[crlf]Upgrade: covid[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "content.akross.com.br",
-      "TlsIP": "172.67.170.8",
+      "Payload": "GET wss://icanhazip.com/ HTTP/1.1[crlf]Host: www.galego.xyz[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "icanhazip.com",
+      "TlsIP": "icanhazip.com",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
