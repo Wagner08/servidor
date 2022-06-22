@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.7",
+  "Version": "1.0.8",
   "ReleaseNotes": "Atualização necessária para funcionamento da vivo. A operadora derrubou o proxy usado sendo necessário uma atualização pars seu funcionamento!",
   "UrlUpdate": "https://raw.githubusercontent.com/Wagner08/servidor/main/Conecta4g%20speednet",
   "Sms": "xxx",
@@ -44,7 +44,7 @@
       "Payload": "GET / HTTP/1.1[crlf]Host: gnnettop.ga[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.18.7.80",
+      "ProxyIP": "104.24.11.16",
       "ProxyPort": "80",
       "Info": "Proxy"
     }
