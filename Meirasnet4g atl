@@ -1,5 +1,5 @@
 {
-  "Version": "2.0.2",
+  "Version": "2.0.3",
   "ReleaseNotes": "Novidades na vivo. Testem!!",
   "UrlUpdate": "https://raw.githubusercontent.com/Wagner08/servidor/main/Meirasnet4g%20atl",
   "Sms": "https://raw.githubusercontent.com/Wagner08/servidor/main/Meirasnet4g%20sms",
@@ -80,6 +80,16 @@ Websocket[crlf|Connection: Keep-Alive[crlf][crlf]",
       "ProxyPort": "",
       "Info": "Tlsws"
 },
+{
+      "Name": "VIVO 5",
+      "FLAG": "vivo",
+      "Payload": GET / HTTP/1.1[crlf]Host: www.galego.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "104.18.7.80",
+      "TlsIP": "",
+      "ProxyIP": "104.18.7.80",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
     { 
       "Name": "🔴CLARO [01]", 
       "FLAG": "claro", 
