@@ -1,5 +1,5 @@
 {
-  "Version": "2.1.6",
+  "Version": "2.1.7",
   "ReleaseNotes": "Atualizaçao para mudanças na vivo e claro. atualize somente se vc nao estiver conseguindo conectar",
   "UrlUpdate": "https://raw.githubusercontent.com/Wagner08/servidor/main/Meirasnet4g%20atl",
   "Sms": "https://raw.githubusercontent.com/Wagner08/servidor/main/Meirasnet4g%20sms",
@@ -288,6 +288,16 @@
       "ProxyPort": "",
       "Info": "Tlsws"
      },
+      {
+      "Name": "TIM 81",
+      "FLAG": "tim",
+      "Payload": "GET wss://static.r4you.co HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "SNI": "static.r4you.co",
+      "TlsIP": "104.26.5.175",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
   {
    "Name": "🔴CLARO [01] 🚀",
    "FLAG": "claro",
